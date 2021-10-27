@@ -1,0 +1,12 @@
+* {
+	transition: all .5s;
+	box-sizing:border-box;
+}
+body {
+	font: 1em 'PT Sans', Arial, Helvetica, sans-serif;
+	background: #FFF8DC;
+	color: #333;
+}
+.thumb img {
+  box-shadow: 0 5px 5px rgba(0,0,0,.2);
+}
