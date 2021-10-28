@@ -7,8 +7,22 @@ body {
 	background: #d5e1e3;
 	color: #333;
 }
+
+.header {
+text-align: center
+}
 .thumb img {
   box-shadow: 0 5px 5px rgba(0,0,0,.2);
+}
+.row div img{
+  border-radius: 17px;
+}
+.row {
+	margin-bottom: 20px;
+}
+.row div img:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
 }
 
 .del { display: none; }
