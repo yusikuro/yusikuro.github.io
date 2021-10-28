@@ -10,3 +10,34 @@ body {
 .thumb img {
   box-shadow: 0 5px 5px rgba(0,0,0,.2);
 }
+
+.del { display: none; }
+.del:not(:checked) + label + * { display: none; }
+ /* тут редактируем вид кнопки */
+.del:not(:checked) + label,
+.del:checked + label {
+display: block;
+padding: 5px;
+border-radius: 50%;
+height:10px;
+width:10px;
+color: #fff;
+opacity: .3;
+background: #283952;
+cursor: pointer;
+}
+.del:checked + label {
+background: #e36443;
+opacity: 1;
+}
+hr {
+  margin: 20px 0;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #333;
+}
+
+strong.Number {
+	color: #a80335;
+}
