@@ -21,7 +21,6 @@ text-align: center
 	margin-bottom: 20px;
 }
 .row div img:hover {
-  transform: translateY(-5px);
   cursor: pointer;
 }
 
@@ -30,7 +29,7 @@ text-align: center
  /* тут редактируем вид кнопки */
 .del:not(:checked) + label,
 .del:checked + label {
-display: block;
+display: inline-block;
 padding: 5px;
 border-radius: 50%;
 height:10px;
